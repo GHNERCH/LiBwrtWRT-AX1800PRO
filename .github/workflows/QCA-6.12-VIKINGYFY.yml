@@ -3,7 +3,7 @@ name: QCA-6.12-VIKINGYFY
 
 #CI计划
 on:
-  #自动编译：当Auto-Clean运行完成后
+  #自动编译：当QCA-6.12-LiBwrt运行完成后
   workflow_run:
     workflows: ["QCA-6.12-LiBwrt"]
     types:
